@@ -6,7 +6,7 @@ def init_mock_db():
             "SKU-101": {
                 "name": "Red Silk Dress",
                 "price": 4500,
-                "img": "https://via.placeholder.com/300/8B0000/FFFFFF?text=Red+Dress",
+                # "img": "https://via.placeholder.com/300/8B0000/FFFFFF?text=Red+Dress",
                 "online_stock": 5,        
                 "store_stock": 2,         
                 "active_carts": 32,       
@@ -15,7 +15,7 @@ def init_mock_db():
             "SKU-102": {
                 "name": "Blue Denim Jacket",
                 "price": 2500,
-                "img": "https://via.placeholder.com/300/00008B/FFFFFF?text=Denim+Jacket",
+                # "img": "https://via.placeholder.com/300/00008B/FFFFFF?text=Denim+Jacket",
                 "online_stock": 0,        
                 "store_stock": 15,        
                 "active_carts": 3,
@@ -24,7 +24,7 @@ def init_mock_db():
             "SKU-103": {
                 "name": "White Cotton Tee",
                 "price": 999,
-                "img": "https://via.placeholder.com/300/FFFFFF/000000?text=White+Tee",
+                # "img": "https://via.placeholder.com/300/FFFFFF/000000?text=White+Tee",
                 "online_stock": 100,      
                 "store_stock": 50,
                 "active_carts": 5,
@@ -34,7 +34,7 @@ def init_mock_db():
             "SKU-104": {
                 "name": "One Piece Manga Vol. 105",
                 "price": 499,
-                "img": "https://via.placeholder.com/300/FFA500/000000?text=Manga+Vol+105",
+                # "img": "https://via.placeholder.com/300/FFA500/000000?text=Manga+Vol+105",
                 "online_stock": 3,        # Very Low
                 "store_stock": 0,         # None in store
                 "active_carts": 45,       # EXTREME DEMAND (Viral Item)
@@ -43,7 +43,7 @@ def init_mock_db():
             "SKU-105": {
                 "name": "Air Retro Sneakers",
                 "price": 12000,
-                "img": "https://via.placeholder.com/300/333333/FFFFFF?text=Sneakers",
+                # "img": "https://via.placeholder.com/300/333333/FFFFFF?text=Sneakers",
                 "online_stock": 0,        
                 "store_stock": 1,         # Only 1 left in store!
                 "active_carts": 12,
@@ -52,7 +52,7 @@ def init_mock_db():
              "SKU-106": {
                 "name": "Digital Smart Watch",
                 "price": 5999,
-                "img": "https://via.placeholder.com/300/1C1C1C/FFFFFF?text=Smart+Watch",
+                # "img": "https://via.placeholder.com/300/1C1C1C/FFFFFF?text=Smart+Watch",
                 "online_stock": 200,      # Healthy
                 "store_stock": 100,
                 "active_carts": 15,
